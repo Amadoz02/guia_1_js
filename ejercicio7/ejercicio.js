@@ -15,6 +15,5 @@ if (rentaAnual >= 10000 && rentaAnual <= 20000) {
 } else if (rentaAnual >= 35000 && rentaAnual <= 60000) {
     console.log("Tipo de impositivo: 20%");
 } else {
-
     console.log("Tipo de impositivo: 45%");
 }   
