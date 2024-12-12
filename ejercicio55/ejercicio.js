@@ -3,7 +3,7 @@
 // descuentos son los siguientes: Tipo A 10% de descuento Tipo B 15% de descuento Tipo C
 // 20% de descuento
 
-let tipoMembresia = prompt("Ingrese el tipo de membresía (A, B, C):").toUpperCase();
+let tipoMembresia = prompt("Ingrese el tipo de membresia (A, B, C):").toUpperCase();
 let montoCompra = parseFloat(prompt("Ingrese el monto de la compra:"));
 
 let descuento = tipoMembresia === "A" ? 0.1 : tipoMembresia === "B" ? 0.15 : 0.2;

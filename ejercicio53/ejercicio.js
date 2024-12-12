@@ -7,8 +7,8 @@ for (let i = 1; i <= 5; i++) {
   productos.push(precio);
 }
 
-let subtotal = productos.reduce((acc, precio) => acc + precio, 0);
-let iva = subtotal * 0.19; // IVA del 19%
+let subtotal = productos.reduce((a, precio) => a + precio, 0);
+let iva = subtotal * 0.19;
 let total = subtotal + iva;
 
 alert(`Subtotal: $${subtotal.toFixed(2)}

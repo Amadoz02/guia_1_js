@@ -4,7 +4,6 @@
     
 let num1 = parseFloat(prompt("Ingrese el primer número:"));
 let num2 = parseFloat(prompt("Ingrese el segundo número:"));
-
 if (num1 > num2) {
   let resultado = num1 - num2;
   alert(`La resta es: ${resultado}`);
