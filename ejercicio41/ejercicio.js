@@ -2,11 +2,15 @@
 // frase invertida
 
 let frase = prompt("Ingrese una frase que lo identifique como programador:");
-let fraseInvertida = "";
+function fraseInver(frase){
 
-for (let i = frase.length - 1; i >= 0; i--) {
-  fraseInvertida += frase[i];
+  let fraseInvertida = "";
+  
+  for (let i = frase.length - 1; i >= 0; i--) {
+    fraseInvertida += frase[i];
+  }
+  
+  return alert(`Frase invertida: ${fraseInvertida}`);
 }
 
-alert(`Frase invertida: ${fraseInvertida}`);
-
+fraseInver(frase);
