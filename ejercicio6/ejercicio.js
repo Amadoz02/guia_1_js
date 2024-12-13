@@ -9,7 +9,7 @@ let alumnos = [
     { nombre: "Maria", sexo: "F", grupo: "A" },
     { nombre: "Pedro", sexo: "M", grupo: "B" },
     { nombre: "Isabella", sexo: "F", grupo: "A" },
-    { nombre: "Andrés", sexo: "M", grupo: "B" },
+    { nombre: "Andres", sexo: "M", grupo: "B" },
     { nombre: "Carlos", sexo: "M", grupo: "B" }]
     
 let nombre = prompt("Ingrese su nombre:");

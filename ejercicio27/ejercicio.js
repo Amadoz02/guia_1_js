@@ -5,17 +5,17 @@
 // c. 15% de la calificación trabajo final.
 try {
     const regex = /^\d+(?:,\d\W+|\.\d\W+)?$/g;
-    let parcial1 = parseFloat(prompt("Ingrese la calificación del primer parcial: "));
-    let parcial2 = parseFloat(prompt("Ingrese la calificación del segundo parcial: "));
-    let parcial3 = parseFloat(prompt("Ingrese la calificación del tercer parcial: "));
-    let examenFinal = parseFloat(prompt("Ingrese la calificación del examen final: "));
-    let trabajoFinal = parseFloat(prompt("Ingrese la calificación del trabajo final: "));
+    let parcial1 = parseFloat(prompt("Ingrese la calificacion del primer parcial: "));
+    let parcial2 = parseFloat(prompt("Ingrese la calificacion del segundo parcial: "));
+    let parcial3 = parseFloat(prompt("Ingrese la calificacion del tercer parcial: "));
+    let examenFinal = parseFloat(prompt("Ingrese la calificacion del examen final: "));
+    let trabajoFinal = parseFloat(prompt("Ingrese la calificacion del trabajo final: "));
 
     
     if (
         regex.test(parcial1) || regex.test(parcial2) || regex.test(parcial3) || regex.test(examenFinal) || regex.test(trabajoFinal) || parcial1 < 0 || parcial2 < 0 || parcial3 < 0 || 
         examenFinal < 0 || trabajoFinal < 0 ||parcial1 > 100 || parcial2 > 100 || parcial3 > 100 || examenFinal > 100 || trabajoFinal > 100) {
-        throw new Error("Ingrese calificaciones válidas (números entre 0 y 100)");
+        throw new Error("Ingrese calificaciones válidas (numeros entre 0 y 100)");
     }
 
  

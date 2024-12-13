@@ -9,7 +9,7 @@
 
     // Validación de contraseña
     if (!/^[a-zA-Z0-9]+$/.test(userPassword)) {
-        alert("Contraseña inválida. Sólo se pueden ingresar valores alfanuméricos.");
+        alert("Contraseña invalida. Solo se pueden ingresar valores alfanumericos.");
     } else {
         // Comparación de contraseñas
         if (password.toLowerCase() === userPassword.toLowerCase()) {

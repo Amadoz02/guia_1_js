@@ -3,10 +3,10 @@
 // descuentos son los siguientes: Tipo A 10% de descuento Tipo B 15% de descuento Tipo C
 // 20% de descuento
 
-let tipoMembresia = prompt("Ingrese el tipo de membresia (A, B, C):").toUpperCase();
+let tipomenb = prompt("Ingrese el tipo de membresia (A, B, C):").toUpperCase();
 let montoCompra = parseFloat(prompt("Ingrese el monto de la compra:"));
 
-let descuento = tipoMembresia === "A" ? 0.1 : tipoMembresia === "B" ? 0.15 : 0.2;
+let descuento = tipomenb === "A" ? 0.1 : tipomenb === "B" ? 0.15 : 0.2;
 let total = montoCompra * (1 - descuento);
 
 alert(`El descuento aplicado fue del ${descuento * 100}%. Total: $${total.toFixed(2)}`);

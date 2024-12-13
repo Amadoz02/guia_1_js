@@ -7,8 +7,8 @@ function zodiaco(mes) {
     else if (mes === "marzo")return "Piscis";
     else if (mes === "abril")return "Aries";
     else if (mes === "mayo")return "Tauro";
-    else if (mes === "junio")return "Géminis";
-    else if (mes === "julio")return "Cáncer";
+    else if (mes === "junio")return "Geminis";
+    else if (mes === "julio")return "Cancer";
     else if (mes === "agosto")return "Leo";
     else if (mes === "septiembre")return "Virgo";
     else if (mes === "octubre")return "Libra";

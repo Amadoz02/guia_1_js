@@ -3,7 +3,7 @@
 // a. Triangulo = base * altura / 2
 // b. Circulo = PI * radio* radio
 
-let figura = prompt("¿Qué figura desea calcular? (T Triángulo,\n C  Círculo):").toUpperCase();
+let figura = prompt("¿Qué figura desea calcular? (T Triangulo,\n C  Circulo):").toUpperCase();
 
 if (figura === "T") {
     let base = parseFloat(prompt("Ingrese la base del triangulo:"));
